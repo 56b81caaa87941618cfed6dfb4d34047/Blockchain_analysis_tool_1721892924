@@ -18,5 +18,11 @@
         "content": "Affirmative response: \"Working on adding a navbar with home, about, and contact navlinks.\"",
         "timestamp": "25072024073601",
         "message_id": "guest25072024073600"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer a static or dynamic navbar design?\", \"option1\": \"Static navbar (remains the same on every page)\", \"option2\": \"Dynamic navbar (changes based on user interaction or page)\"}, {\"question 2\": \"Should the navbar be fully visible at all times, or would you like a hide-on-scroll option?\", \"option1\": \"Fully visible at all times\", \"option2\": \"Hide on scroll\"}], \"input_token_count\": 266, \"output_token_count\": 102, \"time_taken\": \"0:00:03.918946\"}",
+        "timestamp": "25072024073605",
+        "message_id": "guest25072024073600"
     }
 ]
