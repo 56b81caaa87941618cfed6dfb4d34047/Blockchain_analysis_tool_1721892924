@@ -16,9 +16,7 @@ Vue.component("purple_header_component_1721892928", {
     
                     <ul id="desktop-menu-links" class="flex grow justify-center flex-wrap items-center">
                         <li><a id="Home-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" :class="[textStylePrimary, hoverTextStylePrimary]" href="Home.html">Home</a></li>
-                        <li><a id="Features-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Features.html" :class="[textStylePrimary, hoverTextStylePrimary]">Features</a></li>
-                        <li><a id="Pricing-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Pricing.html" :class="[textStylePrimary, hoverTextStylePrimary]">Pricing</a></li>
-                        <li><a id="Blockchain Analytics-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Blockchain Analytics.html" :class="[textStylePrimary, hoverTextStylePrimary]">Blockchain Analytics</a></li>
+                        <li><a id="About-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="About.html" :class="[textStylePrimary, hoverTextStylePrimary]">About</a></li>
                         <li><a id="Contact-link" class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out" href="Contact.html" :class="[textStylePrimary, hoverTextStylePrimary]">Contact</a></li>
                     </ul>
     
@@ -43,9 +41,7 @@ Vue.component("purple_header_component_1721892928", {
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
                         <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5" :class="signUpButtonGradient">
                             <li><a id="mobile-Home-link" class="flex font-medium text-sm py-1.5" href="Home.html" :class="[textStylePrimary,hoverTextStylePrimary]">Home</a></li>
-                            <li><a id="mobile-Features-link" class="flex font-medium text-sm py-1.5" href="Features.html" :class="[textStylePrimary,hoverTextStylePrimary]">Features</a></li>
-                            <li><a id="mobile-Pricing-link" class="flex font-medium text-sm py-1.5" href="Pricing.html" :class="[textStylePrimary,hoverTextStylePrimary]">Pricing</a></li>
-                            <li><a id="mobile-Blockchain Analytics-link" class="flex font-medium text-sm py-1.5" href="Blockchain Analytics.html" :class="[textStylePrimary,hoverTextStylePrimary]">Blockchain Analytics</a></li>
+                            <li><a id="mobile-About-link" class="flex font-medium text-sm py-1.5" href="About.html" :class="[textStylePrimary,hoverTextStylePrimary]">About</a></li>
                             <li><a id="mobile-Contact-link" class="flex font-medium text-sm py-1.5" href="Contact.html" :class="[textStylePrimary,hoverTextStylePrimary]">Contact</a></li>
                         </ul>
                     </nav>
